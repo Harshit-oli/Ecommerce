@@ -86,6 +86,7 @@ const FilterSidebar = () => {
     updateURLParams(newFilters);
   }
 
+
   const updateURLParams=(newFilters)=>{
     const params=new URLSearchParams();
     Object.keys(newFilters).forEach((key)=>{
